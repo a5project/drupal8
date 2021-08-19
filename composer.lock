@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eca0bf03cfdb4473ac7a848c80156d2f",
+    "content-hash": "3bd86ade322f5e6bb3f994e1d893e794",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2001,6 +2001,142 @@
             "description": "Locked core dependencies; require this project INSTEAD OF drupal/core."
         },
         {
+            "name": "drupal/recurly",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/recurly.git",
+                "reference": "8.x-1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/recurly-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "bc16e19668927db3ed05c22a91a7775d23f5a4a0"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/token": "*",
+                "recurly/recurly-client": "^2.7.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.5",
+                    "datestamp": "1573274430",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "JordanMagnuson",
+                    "homepage": "https://www.drupal.org/user/269983"
+                },
+                {
+                    "name": "apotek",
+                    "homepage": "https://www.drupal.org/user/80531"
+                },
+                {
+                    "name": "colan",
+                    "homepage": "https://www.drupal.org/user/58704"
+                },
+                {
+                    "name": "quicksketch",
+                    "homepage": "https://www.drupal.org/user/35821"
+                },
+                {
+                    "name": "rszrama",
+                    "homepage": "https://www.drupal.org/user/49344"
+                },
+                {
+                    "name": "walangitan",
+                    "homepage": "https://www.drupal.org/user/1255390"
+                }
+            ],
+            "description": "Allows integration with the Recurly payment service.",
+            "homepage": "https://www.drupal.org/project/recurly",
+            "support": {
+                "source": "https://cgit.drupalcode.org/recurly",
+                "issues": "https://www.drupal.org/project/recurly"
+            }
+        },
+        {
+            "name": "drupal/token",
+            "version": "1.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/token.git",
+                "reference": "8.x-1.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/token-8.x-1.9.zip",
+                "reference": "8.x-1.9",
+                "shasum": "a5d234382a1a0e4ba61d4c7a2fa10671ca656be4"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.9",
+                    "datestamp": "1608284866",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9 || ^10"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                },
+                {
+                    "name": "eaton",
+                    "homepage": "https://www.drupal.org/user/16496"
+                },
+                {
+                    "name": "fago",
+                    "homepage": "https://www.drupal.org/user/16747"
+                },
+                {
+                    "name": "greggles",
+                    "homepage": "https://www.drupal.org/user/36762"
+                },
+                {
+                    "name": "mikeryan",
+                    "homepage": "https://www.drupal.org/user/4420"
+                }
+            ],
+            "description": "Provides a user interface for the Token API, some missing core tokens.",
+            "homepage": "https://www.drupal.org/project/token",
+            "support": {
+                "source": "https://git.drupalcode.org/project/token"
+            }
+        },
+        {
             "name": "drush/drush",
             "version": "10.6.0",
             "source": {
@@ -3647,6 +3783,55 @@
             ],
             "description": "A polyfill for getallheaders.",
             "time": "2019-03-08T08:55:37+00:00"
+        },
+        {
+            "name": "recurly/recurly-client",
+            "version": "2.12.22",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/recurly/recurly-client-php.git",
+                "reference": "e9fc9e56d2479a77ffa6af313c3e9337190b1b80"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/recurly/recurly-client-php/zipball/e9fc9e56d2479a77ffa6af313c3e9337190b1b80",
+                "reference": "e9fc9e56d2479a77ffa6af313c3e9337190b1b80",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=5.7,<8"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The PHP client library for the Recurly API",
+            "homepage": "https://github.com/recurly/recurly-client-php",
+            "keywords": [
+                "pay",
+                "payments",
+                "recurly"
+            ],
+            "support": {
+                "issues": "https://github.com/recurly/recurly-client-php/issues",
+                "source": "https://github.com/recurly/recurly-client-php/tree/2.12.22"
+            },
+            "time": "2021-06-16T17:00:31+00:00"
         },
         {
             "name": "stack/builder",
