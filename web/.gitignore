@@ -1,0 +1,10 @@
+# Ignore themes, modules, profiles and libraries.
+/modules/contrib
+/themes/contrib
+/profiles/contrib
+/modules/custom
+/themes/custom
+/profiles/custom
+
+# Ignore user-generated files
+/sites/default/files
