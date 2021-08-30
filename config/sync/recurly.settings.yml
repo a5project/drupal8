@@ -1,6 +1,6 @@
 recurly_subscription_max: '1'
 recurly_default_currency: USD
-recurly_public_key: ewr1-gZDdG61xqGXPFqvw4bSuxl
+recurly_public_key: ewr1-ExgAiY0rlVspU6zZljkQzE
 recurly_subscription_display: live
 recurly_subscription_upgrade_timeframe: now
 recurly_subscription_downgrade_timeframe: renewal
@@ -8,10 +8,10 @@ recurly_subscription_cancel_behavior: cancel
 recurly_entity_type: user
 recurly_pages: '1'
 recurly_coupon_page: '1'
-recurly_subdomain: a5project.recurly.com
-recurly_listener_key: 48lxu2l5
+recurly_subdomain: amplifyimpact.recurly.com
+recurly_listener_key: QrwdoeUX
 recurly_push_logging: false
-recurly_private_api_key: 5848f9e018d24e98be490c96f59d0008
+recurly_private_api_key: 929687dbae2c4c398d3cdd60d001cd71
 recurly_date_format: long
 _core:
   default_config_hash: fX9wfzEOj8js7xoji0XVROO__5zSfGkIji6iY20hEsg
@@ -29,12 +29,717 @@ recurly_token_mapping:
   country: ''
   phone: ''
 recurly_subscription_plans:
-  platinum:
+  sponsorship_webinar_titanium_annual:
+    weight: '0'
+    status: 0
+  sponsorship_webinar_titanium_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_webinar_titanium_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_webinar_platinum_annual:
+    weight: '0'
+    status: 0
+  sponsorship_webinar_platinum_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_webinar_platinum_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_webinar_gold_annual:
+    weight: '0'
+    status: 0
+  sponsorship_webinar_gold_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_webinar_gold_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_webinar_silver_annual:
+    weight: '0'
+    status: 0
+  sponsorship_webinar_silver_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_webinar_silver_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_webinar_bronze_annual:
+    weight: '0'
+    status: 0
+  sponsorship_webinar_bronze_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_webinar_copper_annual:
+    weight: '0'
+    status: 0
+  sponsorship_webinar_copper_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_social_titanium_annual:
+    weight: '0'
+    status: 0
+  sponsorship_social_titanium_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_social_titanium_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_social_platinum_annual:
+    weight: '0'
+    status: 0
+  sponsorship_social_platinum_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_social_platinum_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_social_gold_annual:
+    weight: '0'
+    status: 0
+  sponsorship_social_gold_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_social_gold_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_social_silver_annual:
+    weight: '0'
+    status: 0
+  sponsorship_social_silver_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_social_silver_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_social_bronze_annual:
+    weight: '0'
+    status: 0
+  sponsorship_social_bronze_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_social_bronze_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_social_copper_annual:
+    weight: '0'
+    status: 0
+  sponsorship_social_copper_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_social_copper_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_news_titanium_annual:
+    weight: '0'
+    status: 0
+  sponsorship_news_titanium_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_news_titanium_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_news_platinum_annual:
+    weight: '0'
+    status: 0
+  sponsorship_news_platinum_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_news_platinum_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_news_gold_annual:
+    weight: '0'
+    status: 0
+  sponsorship_news_gold_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_news_gold_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_news_silver_annual:
+    weight: '0'
+    status: 0
+  sponsorship_news_silver_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_news_silver_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_news_bronze_annual:
+    weight: '0'
+    status: 0
+  sponsorship_news_bronze_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_news_bronze_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_news_copper_annual:
+    weight: '0'
+    status: 0
+  sponsorship_news_copper_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_news_copper_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_wg_titanium_annual:
+    weight: '0'
+    status: 0
+  sponsorship_wg_titanium_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_wg_titanium_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_wg_platinum_annual:
+    weight: '0'
+    status: 0
+  sponsorship_wg_platinum_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_wg_platinum_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_wg_gold_annual:
+    weight: '0'
+    status: 0
+  sponsorship_wg_gold_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_wg_gold_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_wg_silver_annual:
+    weight: '0'
+    status: 0
+  sponsorship_wg_silver_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_wg_silver_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_wg_bronze_annual:
+    weight: '0'
+    status: 0
+  sponsorship_wg_bronze_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_wg_bronze_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_wg_copper_annual:
+    weight: '0'
+    status: 0
+  sponsorship_wg_copper_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_wg_copper_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_webinar_bronze_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_webinar_copper_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_vs_titanium_annual:
+    weight: '0'
+    status: 0
+  sponsorship_vs_titanium_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_vs_titanium_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_vs_platinum_annual:
+    weight: '0'
+    status: 0
+  sponsorship_vs_platinum_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_vs_platinum_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_vs_gold_annual:
+    weight: '0'
+    status: 0
+  sponsorship_vs_gold_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_vs_gold_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_vs_silver_annual:
+    weight: '0'
+    status: 0
+  sponsorship_vs_silver_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_vs_silver_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_vs_bronze_annual:
+    weight: '0'
+    status: 0
+  sponsorship_vs_bronze_six_months:
+    weight: '0'
+    status: 0
+  sponsorship_vs_bronze_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_vs_copper_annual:
+    weight: '0'
+    status: 0
+  sponsorship_vs_copper_monthly:
+    weight: '0'
+    status: 0
+  sponsorship_vs_copper_six_months:
+    weight: '0'
+    status: 0
+  cci_sponsorship_copper:
+    weight: '0'
+    status: 0
+  sof_silver_monthly_trial:
+    weight: '0'
+    status: 0
+  ob_silver_monthly_trial:
+    weight: '0'
+    status: 0
+  l420_silver_monthly_trial:
+    weight: '0'
+    status: 0
+  isi_silver_monthly_trial:
+    weight: '0'
+    status: 0
+  hoal_silver_monthly_trial:
+    weight: '0'
+    status: 0
+  cbw_silver_month_trial:
+    weight: '0'
+    status: 0
+  ct_silver_monthly_trial:
+    weight: '0'
+    status: 0
+  sof_platinum_monthly_trial:
+    weight: '0'
+    status: 0
+  sof_gold_monthly_trial:
+    weight: '0'
+    status: 0
+  sof_copper_month_trial:
+    weight: '0'
+    status: 0
+  sof_bronze_monthly_trial:
+    weight: '0'
+    status: 0
+  ob_platinum_monthly_trial:
+    weight: '0'
+    status: 0
+  ob_gold_monthly_trial:
+    weight: '0'
+    status: 0
+  ob_copper_monthly_trial:
+    weight: '0'
+    status: 0
+  ob_bronze_monthly_trial:
+    weight: '0'
+    status: 0
+  l420_platinum_monthly_trial:
+    weight: '0'
+    status: 0
+  l420_gold_monthly_trial:
+    weight: '0'
+    status: 0
+  l420_copper_monthly_trial:
+    weight: '0'
+    status: 0
+  l420_bronze_monthly_trial:
+    weight: '0'
+    status: 0
+  isi_platinum_monthly_trial:
+    weight: '0'
+    status: 0
+  isi_gold_monthly_trial:
+    weight: '0'
+    status: 0
+  isi_copper_monthly_trial:
+    weight: '0'
+    status: 0
+  isi_bronze_monthly_trial:
+    weight: '0'
+    status: 0
+  hoal_platinum_monthly_trial:
+    weight: '0'
+    status: 0
+  hoal_gold_monthly_trial:
+    weight: '0'
+    status: 0
+  hoal_copper_monthly_trial:
+    weight: '0'
+    status: 0
+  hoal_bronze_monthly_trial:
+    weight: '0'
+    status: 0
+  cbw_platinum_monthly_trial:
+    weight: '0'
+    status: 0
+  cbw_gold_monthly_trial:
+    weight: '0'
+    status: 0
+  cbw_copper_monthly_trial:
+    weight: '0'
+    status: 0
+  cbw_bronze_monthly_trial:
+    weight: '0'
+    status: 0
+  ct_platinum_monthly_trial:
+    weight: '0'
+    status: 0
+  ct_platinum_monthly:
+    weight: '0'
+    status: 0
+  ct_gold_monthly_trial:
+    weight: '0'
+    status: 0
+  ct_copper_monthly_trial:
+    weight: '0'
+    status: 0
+  ct_bronze_monthly_trial:
+    weight: '0'
+    status: 0
+  hoal_copper_annualy:
+    weight: '0'
+    status: 0
+  hoal_copper_six_months:
     status: '1'
     weight: '0'
-  premium:
+  hoal_copper_monthly:
     status: '1'
     weight: '0'
-  basic:
+  ob_copper_annualy:
+    weight: '0'
+    status: 0
+  ob_copper_six_months:
+    weight: '0'
+    status: 0
+  ob_copper_monthly:
+    weight: '0'
+    status: 0
+  ct_copper_annualy:
+    weight: '0'
+    status: 0
+  ct_sopper_six_months:
+    weight: '0'
+    status: 0
+  ct_copper_monthly:
+    weight: '0'
+    status: 0
+  cbw_copper_annualy:
+    weight: '0'
+    status: 0
+  cbw_copper_six_months:
+    weight: '0'
+    status: 0
+  cbw_copper_monthly:
+    weight: '0'
+    status: 0
+  l420_copper_annualy:
+    weight: '0'
+    status: 0
+  l420_copper_six_months:
+    weight: '0'
+    status: 0
+  l420_copper_monthly:
+    weight: '0'
+    status: 0
+  isi_copper_annualy:
+    weight: '0'
+    status: 0
+  isi_copper_six_months:
+    weight: '0'
+    status: 0
+  isi_copper_monthly:
+    weight: '0'
+    status: 0
+  hoal_platinum_annualy:
+    weight: '0'
+    status: 0
+  hoal_platinum_six_monthly:
+    weight: '0'
+    status: 0
+  hoal_platinum_monthly:
+    weight: '0'
+    status: 0
+  hoal_gold_annualy:
+    weight: '0'
+    status: 0
+  hoal_gold_six_months:
+    weight: '0'
+    status: 0
+  hoal_gold_monthly:
+    weight: '0'
+    status: 0
+  hoal_silver_annualy:
+    weight: '0'
+    status: 0
+  hoal_silver_six_months:
     status: '1'
     weight: '0'
+  hoal_silver_monthly:
+    status: '1'
+    weight: '0'
+  hoal_bronze_annualy:
+    weight: '0'
+    status: 0
+  hoal_bronze_six_months:
+    weight: '0'
+    status: 0
+  hoal_bronze_monthly:
+    weight: '0'
+    status: 0
+  ob_platinum_annualy:
+    weight: '0'
+    status: 0
+  ob_platinum_six_months:
+    weight: '0'
+    status: 0
+  ob_platinum_monthly:
+    weight: '0'
+    status: 0
+  ob_gold_annualy:
+    weight: '0'
+    status: 0
+  ob_gold_six_months:
+    weight: '0'
+    status: 0
+  ob_gold_monthly:
+    weight: '0'
+    status: 0
+  ob_silver_annualy:
+    weight: '0'
+    status: 0
+  ob_silver_six_months:
+    weight: '0'
+    status: 0
+  ob_silver_monthly:
+    weight: '0'
+    status: 0
+  ob_bronze_annualy:
+    weight: '0'
+    status: 0
+  ob_bronze_six_months:
+    weight: '0'
+    status: 0
+  ob_bronze_monthly:
+    weight: '0'
+    status: 0
+  ct_platinum_annualy:
+    weight: '0'
+    status: 0
+  ct_platinum_six_months:
+    weight: '0'
+    status: 0
+  ct_gold_annualy:
+    weight: '0'
+    status: 0
+  ct_gold_six_months:
+    weight: '0'
+    status: 0
+  ct_gold_monthly:
+    weight: '0'
+    status: 0
+  ct_silver_annualy:
+    weight: '0'
+    status: 0
+  ct_silver_six_months:
+    weight: '0'
+    status: 0
+  ct_silver_monthly:
+    weight: '0'
+    status: 0
+  ct_bronze_annualy:
+    weight: '0'
+    status: 0
+  ct_bronze_six_months:
+    weight: '0'
+    status: 0
+  ct_bronze_monthly:
+    weight: '0'
+    status: 0
+  cbl_platinum_annualy:
+    weight: '0'
+    status: 0
+  cbl_platinum_six_months:
+    weight: '0'
+    status: 0
+  cbl_platinum_monthly:
+    weight: '0'
+    status: 0
+  cbw_gold_annualy:
+    weight: '0'
+    status: 0
+  cbw_gold_six_months:
+    weight: '0'
+    status: 0
+  cbw_gold_monthly:
+    weight: '0'
+    status: 0
+  cbw_silver_annualy:
+    weight: '0'
+    status: 0
+  cbw_silver_six_months:
+    weight: '0'
+    status: 0
+  cbw_silver_monthly:
+    weight: '0'
+    status: 0
+  cbw_bronze_annualy:
+    weight: '0'
+    status: 0
+  cbw_bronze_six_months:
+    weight: '0'
+    status: 0
+  cbw_bronze_monthly:
+    weight: '0'
+    status: 0
+  l420_platinum_annaul:
+    weight: '0'
+    status: 0
+  l420_platinum_six_months:
+    weight: '0'
+    status: 0
+  l420_platinum_monthly:
+    weight: '0'
+    status: 0
+  l420_gold_annualy:
+    weight: '0'
+    status: 0
+  l420_gold_six_months:
+    weight: '0'
+    status: 0
+  l420_gold_monthly:
+    weight: '0'
+    status: 0
+  l420_silver_annualy:
+    weight: '0'
+    status: 0
+  l420_bronze_six_months:
+    weight: '0'
+    status: 0
+  l420_silver_monthly:
+    weight: '0'
+    status: 0
+  l420_bronze_annualy:
+    weight: '0'
+    status: 0
+  l420_bronze_six_month:
+    weight: '0'
+    status: 0
+  l420_bronze_monthly:
+    weight: '0'
+    status: 0
+  isi_platinum_annualy:
+    weight: '0'
+    status: 0
+  isi_platinum_six_months:
+    weight: '0'
+    status: 0
+  isi_platinum_monthly:
+    weight: '0'
+    status: 0
+  isi_gold_annual:
+    weight: '0'
+    status: 0
+  isi_gold_six_month:
+    weight: '0'
+    status: 0
+  isi_gold_monthly:
+    weight: '0'
+    status: 0
+  isi_silver_annualy:
+    weight: '0'
+    status: 0
+  isi_silver_six_months:
+    weight: '0'
+    status: 0
+  isi_silver_monthly:
+    weight: '0'
+    status: 0
+  isi_bronze_annualy:
+    weight: '0'
+    status: 0
+  isi_bronze_six_months:
+    weight: '0'
+    status: 0
+  isi_bronze_monthly:
+    weight: '0'
+    status: 0
+  sof_copper_annual:
+    weight: '0'
+    status: 0
+  sof_copper_six_months:
+    weight: '0'
+    status: 0
+  sof_copper_month:
+    weight: '0'
+    status: 0
+  sof_platinum_annual:
+    weight: '0'
+    status: 0
+  sof_platinum_six_months:
+    weight: '0'
+    status: 0
+  sof_platinum_monthly:
+    weight: '0'
+    status: 0
+  sof_gold_annual:
+    weight: '0'
+    status: 0
+  sof_gold_six_months:
+    weight: '0'
+    status: 0
+  sof_gold_monthly:
+    weight: '0'
+    status: 0
+  sof_silver_annual:
+    weight: '0'
+    status: 0
+  sof_silver_six_months:
+    weight: '0'
+    status: 0
+  sof_silver_monthly:
+    weight: '0'
+    status: 0
+  sof_bronze_yearly:
+    weight: '0'
+    status: 0
+  sof_bronze_six_months:
+    weight: '0'
+    status: 0
+  sof_bronze_monthly:
+    weight: '0'
+    status: 0
+  cannabis_tasting_monthly_aluminum:
+    weight: '0'
+    status: 0
+  sip_assoc:
+    weight: '0'
+    status: 0
+  isi_black_beta:
+    weight: '0'
+    status: 0
+  isi_black_reg:
+    weight: '0'
+    status: 0
+  vc_months_12:
+    weight: '0'
+    status: 0
+  vc_months_3:
+    weight: '0'
+    status: 0
+  vc_months_1:
+    weight: '0'
+    status: 0
