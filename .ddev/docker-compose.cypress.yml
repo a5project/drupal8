@@ -1,0 +1,24 @@
+version: '3.6'
+
+services:
+  cypress:
+    container_name: ddev-${DDEV_SITENAME}-cypress
+    image: dasigr/cypress-included:1.0.0
+    tty: true
+    ipc: host
+    links:
+      - web:web
+    external_links:
+      - "ddev-router:${DDEV_HOSTNAME}"
+    environment:
+      - CYPRESS_baseUrl=https://web
+      - DISPLAY
+    labels:
+      com.ddev.site-name: ${DDEV_SITENAME}
+      com.ddev.approot: $DDEV_APPROOT
+    volumes:
+      - ../e2e:/e2e
+      # for Cypress to communicate with the X11 server pass this socket file
+      # in addition to any other mapped volumes
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    entrypoint: ["cypress", "run"]
